@@ -13,6 +13,7 @@ public class Main {
 
         PC thePC1 = new PC(theCase, theMonitor, theMotherboard);
 
+        thePC1.powerUp();
 
         Dimensions kellyDimensions = new Dimensions(8, 24, 30);
 
